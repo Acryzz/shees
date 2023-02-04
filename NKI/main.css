@@ -1,0 +1,72 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p{
+    line-height: 1.9rem;
+}
+
+#container1{
+    padding: 20px 40px;
+    display: flex;
+    margin: auto;
+    font-size: larger;
+    background-color: lightblue;
+}
+
+#container1 > div{
+    border: 3px solid gray;
+    padding: 20px 40px;
+
+}
+
+#container1 a
+{
+    text-decoration: none;
+}
+.pic{
+    width: 150px;
+    
+}
+.home{  
+    flex: 3;
+    padding: 20px 40px;
+    color: black;
+}
+
+.research{
+    flex: 3;
+    padding: 20px 40px;
+    color: black;
+}
+
+.career{
+    flex: 3;
+    padding: 20px 40px;
+    color: black;
+}
+
+.news{
+    flex: 3;
+    padding: 20px 40px;
+    color: black;
+}
+
+.about{
+    flex: 3;
+    padding: 20px 40px;
+    color: black;
+}
+
+.homepage{
+    padding: 20px 40px;
+}
+
